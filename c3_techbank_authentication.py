@@ -1,7 +1,7 @@
 #Esta es una prueba de autenticación
 
-def autenticar_usuario(PIN):
-    if PIN == 12345678:
+def autenticar_usuario(pin, pin_correcto):
+    if pin == pin_correcto:
         print("Autenticación exitosa!")
         return True
         
