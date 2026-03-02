@@ -9,3 +9,7 @@ def configurar_sistema():
     print("Bienvenido a TechBank Riwi Digital")
 
     return saldo, pin, limite_intentos, intentos, historial
+
+
+#solo llama la funcion para saber si esta funcionando correctamente. el objetivo es poder inicializar el sistema con los valores predeterminados.
+configurar_sistema()
