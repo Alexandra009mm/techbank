@@ -1,3 +1,4 @@
+#configuracion inicial del sistema
 def configurar_sistema():
     saldo = 1000
     pin = "1234"
