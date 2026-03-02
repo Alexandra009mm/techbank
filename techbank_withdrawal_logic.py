@@ -13,5 +13,3 @@ def logica_retiro(saldo):
 
     except ValueError:
       print("Error")
-
-logica_retiro(saldo)
