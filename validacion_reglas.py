@@ -5,10 +5,10 @@ saldo_minimo_cuenta = 5.0
 def validar_reglas_retiro(saldo_actual, monto):
 
     if monto % billete_minimo != 0:
-        return False, f"Error: Solo se entregan billetes de {billete_minimo}"
+        return False, f"Error: Solo se entregan billetes de {billete_minimo}, ejemplo múltiplos de 10"
     
     if monto > limite_diario:
-        return False, f"Error: El limite de retiro es {limite_diario}"
+        return False, f"Error: El limite de retiro diario es {limite_diario}"
     
     if monto > saldo_actual:
         return False, "Error: Fondos insuficientes"
@@ -21,7 +21,7 @@ def validar_reglas_retiro(saldo_actual, monto):
 
     return True, "Validacion exitosa"
 
-saldo_usuario = 1000.0
+saldo_usuario = 1000.00
 print("Saldo en cuenta:", saldo_usuario)
 
 try:
