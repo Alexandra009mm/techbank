@@ -1,11 +1,11 @@
-def deposit_logic(balance):
+def deposit_logic(saldo):
     
-        amount = float(input("Enter the amount to deposit: "))
+        monto = float(input("Ingresa el monto a depositar: "))
         
-        if amount > 0:
-            balance += amount
-            print(f"Deposit successful! Your new balance is: {balance}")
+        if monto > 0:
+            saldo += monto
+            print(f"Deposito exitoso! Su nuevo saldo es: {saldo}")
         else:
-            print("Invalid amount. Please enter a positive number.")
+            print("Monto invalido. Porfavor ingresa un valor positivo.")
 
     
