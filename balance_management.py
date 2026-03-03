@@ -1,17 +1,10 @@
-saldo = 1000
 
-deposito = int(input("ingrese cuanto desea depositr: ")) 
-saldo_actual = deposito + saldo
-print("usted deposito con exito:", deposito)
-print("su saldo ahora es:", saldo + deposito)
+def balance_management():
+  
+ saldo = float(1000.00)
+ opcion = "1"
 
-retiro = int(input("ingrese cuanto desea retirar: "))
+ if opcion == "1":
+  print(f"su saldo es {saldo}")
 
-if retiro <= saldo_actual:
-   print (f"usted ha retirado {retiro} con exito") 
-   print ("su saldo ahora es:", saldo_actual - retiro)
-
-else:
-   print("monto insuficiente")
-   
-
+balance_management()
