@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 def mostrar_menu():
     print("\n1. Consultar saldo")
     print("2. Retirar")
@@ -23,3 +24,6 @@ def mostrar_menu():
     print("5. Salir")
     return input("Seleccione una opción: ")
 >>>>>>> origin/c3_techbank_helper_functions
+=======
+from initial_configuration import configurar_sistema
+>>>>>>> origin/c3_techbank_initial_configuration
