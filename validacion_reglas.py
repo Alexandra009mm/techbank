@@ -1,6 +1,10 @@
+#Implemento código de validación de relas de negocios
+
 limite_diario = 5000
 billete_minimo = 10
 saldo_minimo_cuenta = 5.0
+
+# Se hace la definición de validacion de retiros.
 
 def validar_reglas_retiro(saldo_actual, monto):
 
@@ -21,6 +25,7 @@ def validar_reglas_retiro(saldo_actual, monto):
 
     return True, "Validacion exitosa"
 
+# Hago condicionales para verificar cada movimiento, también coloco try para prueba.
 saldo_usuario = 1000.00
 print("Saldo en cuenta:", saldo_usuario)
 
