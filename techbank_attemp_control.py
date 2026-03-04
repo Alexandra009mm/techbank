@@ -1,22 +1,24 @@
-from techbank.falso_autenticador import autenticador
+from c3_techbank_authentication import autenticar_usuario
+from techbank_input_num_validation import verificacion_en_bucle
 
 def limites_intentos():
     attempts = 0 
 
     while attempts < 3:
-        PIN = int(input("Ingresa pin: "))
-        autenticador_1 = autenticador(PIN)
-
-        if autenticador_1 == True:
+       pin_usuario = verificacion_en_bucle()
+       autenticador = autenticar_usuario(pin_usuario)
+       
+       if autenticador == True:
            print("Bienvenido al TechBank")
-           break
+           return True
+       
+       if autenticador == False: 
+          print("Intento fallido, por favor intnete de nuevo.")
+          attempts += 1
+          if attempts == 3: 
+             print("Limites de intentos alcanzados, intente nuevamente mas tarde")
+             return False
 
-        else:
-            print("Intento fallido, por favor intente de nuevo.")
-            attempts += 1 
-            if attempts == 3: 
-                print("Limite de intentos alcanzados.")
-                break
 
 
 
