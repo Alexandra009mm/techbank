@@ -9,7 +9,7 @@ def logica_retiro(saldo):
             else:
                 saldo -= monto
                 print(f"proceso exitoso su saldo actual es {saldo}")
-                break
+                return saldo
 
     except ValueError:
       print("Error")
