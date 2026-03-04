@@ -40,12 +40,5 @@ def mostrar_menu():
         print("Opción inválida. Intente nuevamente.")
 
     return opcion
-#balance = 0.0
 
-#user_input = input("Enter 'deposit' to make a deposit: ")
-#if user_input == "deposit":
-#test = True
-
-#if test:
-#   dl(balance)
 
