@@ -10,26 +10,36 @@ saldo = 1000
 pin = "1234"
 limite_intentos = 3
 intentos = 0
-
-def menu():
-    print("\nMenu ")
-    print("1. Consultar saldo")
+#
+def mostrar_menu():
+    print("\n1. Consultar saldo")
     print("2. Retirar")
     print("3. Depositar")
     print("4. Historial")
     print("5. Salir")
     
-    opcion= input("Seleccione una opción: ")
+    # Aquí se pregunta qué operación desea realizar el usuario
+    opcion = input("Seleccione una opción: ")
+
+    if opcion == "1":
+        # Aquí se llama la función consultar_saldo()
+        pass
+    elif opcion == "2":
+        # Aquí se llama la función retirar()
+        pass
+    elif opcion == "3":
+        # Aquí se llama la función depositar()
+        pass
+    elif opcion == "4":
+        # Aquí se llama la función historial()
+        pass
+    elif opcion == "5":
+        # Aquí se llama la función salir() o se termina el programa
+        pass
+    else:
+        print("Opción inválida. Intente nuevamente.")
+
     return opcion
- 
-opcion_seleccionada =  menu()
-
-if (opcion_seleccionada == 1):
-    consultar(saldo)
-elif (opcion_seleccionada == 2):
-   saldo = retiro (saldo)
-    
-
 #balance = 0.0
 
 #user_input = input("Enter 'deposit' to make a deposit: ")
