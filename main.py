@@ -1,7 +1,7 @@
 from initial_configuration import configurar_sistema
 from techbank_attemp_control import limites_intentos
 from techbank_withdrawal_logic import retiro 
-from validacion_reglas import validar_reglas_retiro
+from c3_techbank_business_rules_validation import validar_reglas_retiro
 from deposit_logic import deposit_logic as dl
 from c3_techbank_authentication import autenticar_usuario
 from balance_management import balance_management as consultar
