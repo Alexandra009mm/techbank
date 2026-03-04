@@ -13,7 +13,7 @@ def limites_intentos():
            return True
        
        if autenticador == False: 
-          print("Intento fallido, por favor intnete de nuevo.")
+          print("Intento fallido, por favor intente de nuevo.")
           attempts += 1
           if attempts == 3: 
              print("Limites de intentos alcanzados, intente nuevamente mas tarde")
