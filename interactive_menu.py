@@ -11,19 +11,18 @@ def mostrar_menu():
 
     if opcion == "1":
         # Aquí se llama la función consultar_saldo()
-        pass
+     
     elif opcion == "2":
-        # Aquí se llama la función retirar()
-        pass
+    
     elif opcion == "3":
         # Aquí se llama la función depositar()
-        pass
+       
     elif opcion == "4":
         # Aquí se llama la función historial()
-        pass
+     
     elif opcion == "5":
         # Aquí se llama la función salir() o se termina el programa
-        pass
+    
     else:
         print("Opción inválida. Intente nuevamente.")
 
