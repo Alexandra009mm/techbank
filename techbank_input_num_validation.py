@@ -5,7 +5,7 @@ def verificar_numero():
         pin_ingresado = int(input("Ingrese su numero PIN: "))  
         return pin_ingresado
     except ValueError:
-        print("Error: Eso no es un número válido.")
+        print("Error: Eso no es un número válido. Intentalo de nuevo")
         return None
 
 def verificacion_en_bucle():
