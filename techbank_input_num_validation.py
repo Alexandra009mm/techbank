@@ -1,3 +1,5 @@
+#Esta funcion valida que el pin de ingreso contenga solo numeros enteros para dar el acceso
+
 def verificar_numero():
     try:
         pin_ingresado = int(input("Ingrese su numero PIN: "))  
