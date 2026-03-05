@@ -13,25 +13,25 @@ def tech_bank():
     if inicio == True:
         while True:
             global saldo
-            print("Seleccione una opción:") 
-            print("1. Ver saldo") 
-            print("2. Retirar dinero") 
-            print("3. Depositar dinero") 
-            print("4. Salir") 
-            preguta = input("Ingrese el número de la opción deseada: ") 
+            print("Por  favor seleccione el proceso a realizar:") 
+            print("1. Ver saldo actual de la cuenta") 
+            print("2. Realizar un retiro") 
+            print("3. Realizar un retiro") 
+            print("4. Salir del cajero") 
+            pregunta = input("Ingrese el número de la opción elegida: ") 
 
-            if preguta == "1":
+            if pregunta == "1":
                 balance_management(saldo)
 
-            if preguta == "2":
-                monto = float(input("Ingresa el monto a retirar: "))
+            if pregunta == "2":
+                monto = float(input("Ingresa el monto que quieres retirar: "))
                 saldo = logica_retiro(saldo, monto)
 
-            if preguta == "3":
+            if pregunta == "3":
                 monto = float(input("Ingresa el monto a depositar: "))
                 saldo = deposit_logic(saldo, monto)
             
-            if preguta == "4":
+            if pregunta == "4":
                 print("Gracias por usar TechBank. ¡Hasta luego!")
                 break
     
