@@ -1,6 +1,4 @@
-def deposit_logic(saldo):
-    
-        monto = float(input("Ingresa el monto a depositar: "))
+def deposit_logic(saldo, monto):
         
         if monto > 0:
             saldo += monto

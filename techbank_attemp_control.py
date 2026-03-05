@@ -1,7 +1,7 @@
 from c3_techbank_authentication import autenticar_usuario
 from techbank_input_num_validation import verificacion_en_bucle
 
-def limites_intentos():
+def inicio_de_sesion():
     attempts = 0 
 
     while attempts < 3:
@@ -21,5 +21,3 @@ def limites_intentos():
 
 
 
-
-limites_intentos()
