@@ -7,6 +7,7 @@ print("3. Depositar")
 print("4. Historial")
 print("5. Salir")
     # Aquí se pregunta qué operación desea realizar el usuario
+
 if opcion == "1":
     # Aquí se llama la función consultar_saldo()
     pass
