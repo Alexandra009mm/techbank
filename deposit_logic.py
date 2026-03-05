@@ -15,4 +15,4 @@ def deposit_logic():
                     print("Monto invalido. Porfavor ingresa un valor positivo.")
             except ValueError:
                 print("Error")
-    
+deposit_logic()
