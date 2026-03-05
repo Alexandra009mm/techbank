@@ -1,4 +1,4 @@
-#funcion
+# creacion de la funcion
 def balance_management(saldo):
   saldo = 1000
   print(f"su saldo es {saldo}")
