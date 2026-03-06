@@ -14,7 +14,7 @@ def logica_retiro():
                 print(f"proceso exitoso su saldo actual es {initial_configuration.saldo}")
                 movimiento = f"retiro {monto} / saldo restante: {initial_configuration.saldo}"
                 initial_configuration.historial.append(movimiento)
-                return False
+                break
             
 
         except ValueError:
