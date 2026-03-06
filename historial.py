@@ -2,13 +2,16 @@
 import initial_configuration
 
 def gestion_historial():
-    if len(initial_configuration.historial) == 0:
+
+    historial = initial_configuration.historial
+
+    if len(historial) == 0:
         print("No hay movimientos registrados.")
     else:
         print("-----HISTORIAL DE OPERACIONES-----")
 
-        for movimiento in initial_configuration.historial:
-            print("movimiento:", movimiento)
+        for movimiento in historial:
+            print(movimiento)
 
             print("----------------------------------")
             
