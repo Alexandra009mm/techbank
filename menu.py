@@ -11,7 +11,7 @@ def mostrar_menu():
         print("2. Retirar")
         print("3. Depositar")
         print("4. Historial")
-        print("5. Salir")
+        print("5. Salir del menu")
     
         opcion = input("Seleccione una opción: ")
 
