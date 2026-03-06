@@ -13,7 +13,7 @@ def mostrar_menu():
         print("4. Historial.")
         print("5. Salir del menu.")
     
-        opcion = input("Seleccione una opción: \n ")
+        opcion = input("Seleccione una opción: ")
 
         if opcion == "1":
             bl()

@@ -6,7 +6,7 @@ historial = []
 
 
 
-#BIENVENIDA DEL PROGRAMA
+#--------- BIENVENIDA DEL PROGRAMA ----------
 
 def configurar_sistema():
    
