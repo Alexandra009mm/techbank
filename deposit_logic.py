@@ -10,7 +10,7 @@ def deposit_logic():
                     print(f"Deposito exitoso! Su nuevo saldo es: {initial_configuration.saldo}")
                     movimiento = f"deposito {monto} / saldo restante: {initial_configuration.saldo}"
                     initial_configuration.historial.append(movimiento)
-                    return False
+                    break
                 else:
                     print("Monto invalido. Porfavor ingresa un valor positivo.")
             except ValueError:
