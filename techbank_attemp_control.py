@@ -9,7 +9,7 @@ def limites_intentos():
        autenticador = autenticar_usuario(pin_usuario)
        
        if autenticador == True:
-           print("Bienvenido al TechBank")
+           print("Bienvenido al TechBank. ")
            menu()
            return True
        
