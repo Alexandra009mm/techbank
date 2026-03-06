@@ -13,10 +13,10 @@ def configurar_sistema():
     mensaje = """
                     --- Bienvenido a TechBank Riwi Digital ---
 
-           Este sistema es una simulación de un cajero automático
-                desarrollada con fines educativos.
+              Este sistema es una simulación de un cajero automático
+                        desarrollada con fines educativos
 
-        Permite practicar operaciones bancarias básicas mediante código.
+          Permite practicar operaciones bancarias básicas mediante código
     """
     print(mensaje)
 
