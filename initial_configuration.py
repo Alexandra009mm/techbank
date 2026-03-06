@@ -6,7 +6,7 @@ historial = []
 
 def configurar_sistema():
    
-    print("Bienvenido a TechBank Riwi Digital")
+    print("---Bienvenido a TechBank Riwi Digital---")
 
     
 configurar_sistema()

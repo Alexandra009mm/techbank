@@ -7,6 +7,7 @@ import initial_configuration
 
 def mostrar_menu():
     while True:
+        print("OPCIONES")
         print("\n1. Consultar saldo")
         print("2. Retirar")
         print("3. Depositar")
